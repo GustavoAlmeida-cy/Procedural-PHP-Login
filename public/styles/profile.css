@@ -1,0 +1,71 @@
+.profile-display {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  background-color: white;
+  color: #222;
+  border-radius: 5px;
+  padding: 20px 0 !important;
+  width: 400px !important;
+}
+
+.profile-display .d-user {
+  padding: 0 30px;
+}
+
+.profile-display .edit {
+  font-size: 16pt;
+  margin-top: 20px;
+}
+
+.profile-display small {
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.profile-display h2 {
+  font-size: 18pt;
+  font-weight: normal;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.d-user-info {
+  margin-right: 0;
+  width: 350px !important;
+}
+
+.btn-none {
+  border: none;
+  background: none;
+}
+
+#d-user-emoji {
+  width: 80px;
+  height: 80px;
+  padding-bottom: 10px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#d-user-emoji:hover span {
+  opacity: 0.8;
+}
+
+#d-user-emoji span {
+  font-size: 4em;
+  transition: opacity 0.2s;
+}
+
+#d-user-emoji button {
+  font-size: 1.5em;
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+}
